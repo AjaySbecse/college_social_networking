@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Source+Sans+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic&display=swap");
+body {
+  font-family: "IBM Plex Sans Arabic", sans-serif;
+}
+#join-now {
+  background-color: #a63ec5;
+  color: white;
+  padding: 5px 20px;
+  border-radius: 25px;
+  outline: none;
+  font-weight: bold;
+  letter-spacing: 1;
+}
+
+#auth-btn {
+  margin-left: auto;
+}
+
+#title-dot {
+  color: #a63ec5;
+  font-size: 50px;
+}
+
+#login-btn {
+  font-weight: bold;
+  color: #a63ec5;
+  letter-spacing: 1;
+}
+
+#intro-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#landing-image {
+  height: 100%;
+}
+#wel-tit-1 {
+  color: #a63ec5;
+  font-weight: bold;
+}

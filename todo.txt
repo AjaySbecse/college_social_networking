@@ -1,0 +1,36 @@
+Date 28/03/2022
+    * If the student does not providing the profile details, collect the details and store it in the db.  (✅)
+        Approach : 
+            * update the credential table (add one column) isProfileAdded. By default it is 0.  (✅)
+    * display the profile details  (✅)
+
+Date 29/03/2022
+    * Complete the post page. 
+        * create the form to publish the post. It should be moved to admin page. (✅)
+        * once the admin accept the post. It will be displayed on post page. (✅)
+    
+        
+    * Admin page
+        * add post pending page (✅)
+        * list all the teachers and students to delete the account. 
+            * Student  (✅)
+            * teacher (✅)
+
+Date 30/03/2022
+    * Create teacher dashboard  (✅)
+    * create profile form for teachers  (✅)
+    * display details profile page  (✅)
+    * teachers can post the event (✅)
+    * Posted event should be displayed on student (Events Page)
+        * add Register for event button (✅)
+        * cancel Regsistration button (✅)
+
+
+Date 31/03/2022
+
+    * Download those details of the student registered for that event. (teacher dashboard). (✅)
+    * complete the message page. (✅)
+
+Date 01/03/2022
+    * Update number of post or no of event conducted in the profile page. 
+    
