@@ -48,10 +48,11 @@ if (isset($_POST['submit'])) {
         } else {
             $insertQuery = "INSERT INTO student_details(user_name,email_id,first_name,last_name,roll_number,dept,college_name,profile_picture,address,city,country,phone_number,about_me) values('$user_name','$email_id','$first_name','$last_name','$roll_number','$dept',
                  '$college_name','$filename','$address','$city','$country','$phone_number','$about_me')";
-
+            echo "data Inserted";
             if (mysqli_query($conn, $insertQuery)) {
                 $query = "UPDATE credential set isProfileadded = '1' where email_id = '$email_id'";
                 mysqli_query($conn, $query);
+                echo "data Updated";
                 header("location:./home.php");
             } else {
                 echo mysqli_error($conn);
