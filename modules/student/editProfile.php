@@ -1,6 +1,7 @@
 <?php include("../../auth/config.php");
 
-$profileQuery = "SELECT * FROM student_details";
+$email_id = $_SESSION['email'];
+$profileQuery = "SELECT * FROM student_details where email_id = '$email_id'";
 $result = mysqli_query($conn, $profileQuery);
 $row = mysqli_fetch_assoc($result);
 
